@@ -1,21 +1,55 @@
 .footerContain{
     padding: 100px 7%;
-    height: 80vh;
+    transition: all 0.2s linear;   
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    place-content: center;
     transition: all 0.2s linear;   
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content:space-between ;
-   
+    height: 100%;
     align-items: center;
-    background-color: var(--color4);
+   
+ 
 }
 
 .textFooter{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
-.textFooter img{
-    width: 250px;
+
+.textFooter a{
+    color: var(--text-color2);
+}
+.textFooter a:hover{
+    color: var(--color4);
+}
+.textFooter p{
+    color: var(--text-color2);
+    font-size: 14px;
+    line-height: 1.4rem;
+}
+
+.textFooter h3{
+    color: var(--color4);
+    margin-bottom: 1rem;
+}
+
+.logo-footer img{
+    width: 60px;
+}
+.logo-footer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.logo-footer  h1{
+    color: var(--color4);
+    font-size: 25px;
 }

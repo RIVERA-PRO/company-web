@@ -1,0 +1,36 @@
+.BlogComponent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.BlogHome{
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+ 
+}
+.blog-card-component{
+    width: 340px;
+    border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.164);
+}
+.blog-card-component img{
+    width: 100%;
+}
+
+@media (max-width:504px){
+    .blog-card-component{
+        width: 100%;
+      
+    }
+    .BlogHome{
+        padding: 100px 7%;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+     
+    }
+}

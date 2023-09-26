@@ -1,0 +1,36 @@
+.TitlePage{
+    position: absolute;
+
+    top: 30%;
+    color: var(--blanco);
+    display: flex;
+    gap: 10px;
+  
+    text-align: center;
+   
+}
+
+.TitlePage a{
+    color: var(--blanco);
+}
+
+.deFlexTile {
+    display: flex;
+    gap: 3px;
+}
+@media (max-width: 700px) {
+    .TitlePage a{
+        color: var(--blanco);
+    
+    }
+    .TitlePage{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        right: 0;
+        left: 0;
+    }
+    
+}

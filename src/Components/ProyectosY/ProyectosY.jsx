@@ -14,13 +14,9 @@ import img5 from '../../img/proyectos/Fitness Gym.png'
 import img6 from '../../img/proyectos/Activitar Gym.png'
 import img7 from '../../img/proyectos/Fitness Cloud app.png'
 import img8 from '../../img/proyectos/Ortopedia.png'
-import img9 from '../../img/proyectos/Mangas.png'
-import img10 from '../../img/proyectos/Odyssey.png'
-import img11 from '../../img/proyectos/Project Hacker.png'
-import img12 from '../../img/proyectos/my-music.png'
-import img13 from '../../img/proyectos/salta-jobs.png'
-import img14 from '../../img/proyectos/Barber Master.png'
-import img15 from '../../img/proyectos/Restaurante.png'
+import img9 from '../../img/proyectos/Ley maestra.png'
+import img10 from '../../img/proyectos/Riverx.png'
+
 
 
 
@@ -41,29 +37,43 @@ export default function ProyectosY() {
 
             lengujes: "HTML - CSS - JAVASCRIPT - REACT ",
             img: img1,
-            link: "https://gentle-fudge-b68c4a.netlify.app/",
+            link: "https://lovely-muffin-87a301.netlify.app/",
 
-            figma: "https://www.figma.com/file/gkHwsv8lGKjDeUQ4q1Y6aJ/tasteit-web?type=design&node-id=0-1&mode=design&t=NHdOr8UayiiSxVRS-0"
+
         },
         {
             title: "Small-apps-web",
 
             lengujes: "HTML - CSS - JAVASCRIPT - REACT ",
             img: img2,
-            link: "https://gorgeous-sfogliatella-fd369b.netlify.app/",
+            link: "https://illustrious-buttercream-816617.netlify.app/",
 
-            figma: "https://www.figma.com/file/omwyPREG3Pg99z7Rd0Wjj4/Small-apps?type=design&mode=design&t=NHdOr8UayiiSxVRS-0"
+
         },
         {
             title: "Crypto-web",
 
             lengujes: "HTML - CSS - JAVASCRIPT - REACT ",
             img: img3,
-            link: "https://unique-vacherin-447135.netlify.app/",
+            link: "https://velvety-empanada-a120ad.netlify.app/",
 
-            figma: "https://www.figma.com/file/a1iCqZg8AAZTdZ3kzrIDI1/Crypto-web?type=design&mode=design&t=NHdOr8UayiiSxVRS-0"
+
         },
+        {
+            title: "Ley maestra",
+            lengujes: "HTML - CSS - JAVASCRIPT - REACT",
+            img: img9,
+            link: "https://startling-snickerdoodle-9a96ce.netlify.app/",
 
+        },
+        {
+            title: "Riverx",
+            lengujes: "HTML - CSS - JAVASCRIPT - REACT",
+            img: img10,
+            link: "https://lucent-cassata-7bf593.netlify.app/",
+
+
+        },
         {
             title: "Fitness Cloud",
             description: "",
@@ -71,27 +81,9 @@ export default function ProyectosY() {
             img: img4,
             link: "https://dazzling-donut-b93dd7.netlify.app/",
 
-            figma: ""
-        },
-        {
-            title: "Fitness Gym",
-            description: "",
-            lengujes: "HTML - CSS - JAVASCRIPT - REACT",
-            img: img5,
-            link: "https://bejewelled-axolotl-a610ef.netlify.app/",
 
-            figma: ""
         },
 
-        {
-            title: "Activitar Gym",
-
-            lengujes: "HTML - CSS - BOOTSTRAP",
-            img: img6,
-            link: "https://rivera-pro.github.io/activitar-jr-dev/",
-
-            figma: ""
-        },
 
         {
             title: "Fitness Cloud app",
@@ -100,69 +92,13 @@ export default function ProyectosY() {
             img: img7,
             link: "",
 
-            figma: ""
-        },
 
-        {
-            title: "Ortopedia",
-
-            lengujes: "HTML - CSS - BOOTSTRAP",
-            img: img8,
-            link: "https://rivera-pro.github.io/ortopedia-jr-dev/",
-
-            figma: ""
         },
 
 
 
 
-        {
-            title: "Project Hacker",
 
-            lengujes: "HTML - CSS - JAVASCRIPT",
-            img: img11,
-            link: "https://rivera-pro.github.io/Juan-Rivera-Project-Hacker/",
-
-            figma: ""
-        },
-        {
-            title: "My Music",
-
-            lengujes: "HTML - CSS - JAVASCRIPT - REACT",
-            img: img12,
-            link: "https://moonlit-madeleine-d33347.netlify.app/",
-
-            figma: ""
-        },
-
-        {
-            title: "Salta Jobs",
-
-            lengujes: "HTML - CSS - JAVASCRIPT - REACT - NODE - EXPRESS - MONGO DB",
-            img: img13,
-            link: "https://unrivaled-sherbet-85ef07.netlify.app/",
-
-            figma: ""
-        },
-
-        {
-            title: "Barber Master",
-
-            lengujes: "HTML - CSS - BOOTSTRAP",
-            img: img14,
-            link: "https://rivera-pro.github.io/barber-jr-dev/",
-
-            figma: ""
-        },
-        {
-            title: "Restaurante",
-            description: "",
-            lengujes: "HTML - CSS - BOOTSTRAP",
-            img: img15,
-            link: "https://rivera-pro.github.io/restaurante-jr-dev/",
-
-            figma: ""
-        },
 
 
 
@@ -242,13 +178,9 @@ export default function ProyectosY() {
                                 <h3>{item.title}</h3>
                                 <p>{item.lengujes}</p>
                                 <div className='links'>
-                                    <Anchor to={`${item.link}`}>Deploy</Anchor>
+                                    <Anchor to={`${item.link}`}>Ver Pagina</Anchor>
 
-                                    {item.figma !== '' && (
-                                        <a href={item.figma} target="_blank">
-                                            <FontAwesomeIcon icon={faFigma} /> Figma
-                                        </a>
-                                    )}
+
                                 </div>
 
                             </div>

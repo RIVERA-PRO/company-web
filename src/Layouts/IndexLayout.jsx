@@ -11,23 +11,25 @@ import Servicios from '../Components/Servicios/Servicios';
 import About from '../Components/About/About'
 import Footer from '../Components/Footer/Footer';
 import Consulta from '../Components/Consulta/Consulta';
+import BlogComponent from '../Components/BlogComponent/BlogComponent';
+import Developer from '../Components/Developer/Developer'
 export default function IndexLayout() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
     return (
         <div>
-
             <Header />
             <HeroContain />
-
             <Servicios />
             <About />
             <WebDev />
             <MobilWeb />
             <Proyectosy />
+            <BlogComponent />
             <Consulta />
             <Footer />
+            <Developer />
             <ButonScroll />
         </div>
     );

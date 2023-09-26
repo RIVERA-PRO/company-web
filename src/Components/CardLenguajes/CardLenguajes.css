@@ -1,0 +1,36 @@
+.CardLenguajes{
+    width: 17rem;
+    border-radius: 7px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.056);
+    transition: all 0.3s linear;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--blanco);
+}
+.CardLenguajes:hover{
+    transition: all 0.3s linear;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.44);
+}
+
+.lenguajesCard {
+    transition: all 0.3s linear;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 20px;
+   
+}
+.lenguajesCard p{
+    background-color: #0314ff21;
+    padding: 3px 10px;
+    border-radius: 30rem;
+   color: var(--color1);
+   font-size: 14px;
+}
+@media (max-width: 1024px) {
+    .CardLenguajes{
+        width:100%;
+       
+    }
+}

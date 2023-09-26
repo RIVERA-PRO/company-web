@@ -1,0 +1,64 @@
+.CardPersonal {
+
+    width: 17rem;
+    height: 20rem;
+    border-radius: 7px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.056);
+    transition: all 0.3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--blanco);
+}
+.CardPersonal:hover{
+    transition: all 0.3s linear;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.44);
+}
+.CardPersonal img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 2px solid var(--color1);
+   
+}
+
+
+.CardPersonal h3{
+    color: var(--text-color);
+    padding-top: 10px;
+}
+.CardPersonal p{
+    color: var(--text-color);
+}
+
+.CardPersonal  a{
+    color: var(--text-color);
+}
+
+
+.redes-sociales-card {
+    display: flex;
+    gap: 1rem;
+    padding-top: 10px;
+}
+.redes-sociales-card  a{
+    color: var(--text-color);
+}
+
+.cv{
+    background-color: var(--color1);
+    color: var(--blanco)!important;
+    padding: 5px 10px;
+    width: 4rem;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+@media (max-width: 1024px) {
+    .CardPersonal{
+        width:100%;
+       
+    }
+}

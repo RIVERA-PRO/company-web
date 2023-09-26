@@ -4,8 +4,8 @@ import './Navbar.css'
 import { Link as Anchor, useNavigate, useLocation } from "react-router-dom";
 
 
-
-import logo from '../../img/logo5.png'
+import Logo from '../Logo/Logo';
+import logo from '../../img/logo-web.png'
 
 export default function Navbar() {
     const location = useLocation();
@@ -35,10 +35,7 @@ export default function Navbar() {
 
             <nav >
 
-                <div className='logo'>
-                    <Anchor to={`/`} ><img src={logo} alt="logo-diseño-web-plus" /></Anchor>
-
-                </div>
+                <Logo />
 
 
                 <div className={`nav_items ${isOpen && "open"}`} >
@@ -52,10 +49,12 @@ export default function Navbar() {
 
                     <div className='enlaces'>
                         <Anchor to={`/`} className={location.pathname === '/' ? 'active' : ''}>Inicio</Anchor>
-                        <Anchor to={`/Proyectos`} className={location.pathname === '/Proyectos' ? 'active' : ''}>Proyectos</Anchor>
+                        <Anchor to={`/`} onClick={() => { document.querySelector('.AboutConatin').scrollIntoView({ behavior: 'smooth' }); }} >Acerca de</Anchor>
+                        <Anchor to={`/`} onClick={() => { document.querySelector('.serviciosWeb').scrollIntoView({ behavior: 'smooth' }); }} >Servicios</Anchor>
+                        <Anchor to={`/`} onClick={() => { document.querySelector('.Proyectos').scrollIntoView({ behavior: 'smooth' }); }} >Proyectos</Anchor>
                         <Anchor to={`/blog`} className={location.pathname === '/blog' ? 'active' : ''}>Blog</Anchor>
-                        <Anchor to={`/tools`} className={location.pathname === '/tools' ? 'active' : ''}>Tools</Anchor>
-                        <Anchor to={`/tools`} className={location.pathname === '/tools' ? 'active' : ''} id='contact-btn'>Contacto</Anchor>
+
+                        <Anchor to={`/`} onClick={() => { document.querySelector('.consultaContain').scrollIntoView({ behavior: 'smooth' }); }} id='contact-btn'>Contacto</Anchor>
                     </div>
 
 

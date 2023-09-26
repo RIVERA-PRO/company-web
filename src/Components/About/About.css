@@ -6,12 +6,12 @@
     display: flex;
     justify-content: center;
     place-content: center;
-   
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     padding: 10px 7%;
-    gap: 2rem;
+    gap: 3rem;
     flex-direction: column;
+    margin-top: 10rem;
 }
 .AboutConatin img{
     width: 100px;
@@ -31,6 +31,7 @@
    
     align-items: center;
     gap: 2rem;
+   
 
 }
 
@@ -38,7 +39,7 @@
     width: 300px!important;
     position: absolute;
     right: 10%;
-   margin-top: -30rem;
+   margin-top: -40rem;
    
 }
 
@@ -68,6 +69,6 @@
     .AboutConatin{
   
         background-image: url(../../img/bg2.jpg);
-  
+        height: 80vh;
     }
 }

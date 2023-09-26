@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AboutImg from '../../img/about-pc.png'
 
 import { faCode } from '@fortawesome/free-solid-svg-icons';
+import LogoWeb from '../LogoWeb/LogoWeb'
 export default function About() {
     return (
         <div className='AboutConatin'>
@@ -14,7 +15,7 @@ export default function About() {
                 <h1 className='titleH1-2'>Sobre Nosotros</h1>
             </div>
             <div className='AboutText'>
-                <img src={logo} alt="logo-diseño-web-plus" />
+                <LogoWeb />
                 <hr className='hr' />
                 <p>Una consultora que se especializa en el desarrollo de software a medida, la provisión de recursos profesionales para proyectos informáticos y servicios de consultoría, soporte e implementaciones en IT. <br />Ayudamos a nuestros clientes a maximizar sus beneficios. Somos expertos en  Desarrollo Web, Marketing Digital y Publicidad Online.</p>
 

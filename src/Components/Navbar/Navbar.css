@@ -67,21 +67,11 @@ nav{
     display: none;
  
 }
-.logo img{
-   width: 250px;
-    
-  }
 
-.logo a{
-  color: var(--color1);
-  font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-}
 
 
 .logo-nav img{
-   width: 200px;
+   width: 70px;
    display: none;
 }
 
@@ -129,10 +119,7 @@ nav{
 }
 
 
-.scrolled a{
-    color: #000;
-    font-size: 16px;
-}
+
 
 .scrolled a:hover{
     color: var(--color1);
@@ -146,12 +133,6 @@ nav{
 }
 
 
-.scrolled .logo-nav a{
-    
-    color: var(--color1);
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 
 
@@ -229,7 +210,7 @@ nav{
     padding: 20px;
     color: var(--text-color);
 }
-.navbar a{
+.enlaces a{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -245,10 +226,7 @@ nav{
     .logo-nav img{
         display: flex;
     }
-    .logo img{
-        width: 200px;
-         
-       }
+   
 }
 
 

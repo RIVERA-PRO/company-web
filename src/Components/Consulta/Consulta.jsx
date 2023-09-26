@@ -28,7 +28,7 @@ export default function Consulta() {
             question: formInputs.question,
         };
 
-        const url = 'https://website-gpdp.onrender.com/consulta/queries';
+        const url = 'https://diseno-web-plus.onrender.com/consulta/queries';
 
         try {
             setLoading(true); // Mostrar indicador de carga

@@ -1,0 +1,14 @@
+.developerContain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px;
+    background-color: var(--color3);
+    color: #fff;
+}
+
+.developerContain img{
+    width: 30px;
+    object-fit: cover;
+}
