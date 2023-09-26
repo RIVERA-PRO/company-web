@@ -1,0 +1,261 @@
+header {
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+   
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  transition: all 0.2s linear;
+  padding: 0px 10%;
+  height: 10vh;
+  box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
+  background-color:var(--blanco);
+  border-radius:8px ;
+ 
+}
+
+
+
+
+.nav_items .active {
+    transition: all 0.2s linear;
+    background-color: #ffffff1c;
+    border-radius: 5px  ;
+  
+}
+  
+.enlaces a {
+    color: var(--color4);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 4px 25px;
+    transition: all 0.2s linear;
+    margin: 0px 10px;
+    transition: all 0.2s linear;
+    font-weight: 500;
+  }
+  
+  .enlaces a:hover {
+  
+    transform: scaleX(1.2);
+    background-color: #3d3d3d1c;
+    border-radius: 5px  ;
+    
+}
+
+
+.nav_items.open {
+    transform: translateX(0) !important;
+  
+}
+
+
+.nav_toggle{
+    display: flex !important;
+    flex-direction: column;                
+    margin: 15px;
+    cursor: pointer;
+    margin-left: -30%;
+     display: none;
+}
+.nav_toggle span{
+  
+    display: none;
+ 
+}
+.logo img{
+   width: 250px;
+    
+  }
+
+.logo a{
+  color: var(--color1);
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+.logo-nav img{
+   width: 200px;
+   display: none;
+}
+
+
+.cerrar-nav{
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+
+.nav_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  
+}
+.redes-sociales{
+    display: flex;
+    gap: 2rem;
+
+
+}
+ .redes-sociales a{
+ 
+    color: var(--blanco);
+ } 
+ .scrolled .redes-sociales a{
+ 
+    color: var(--text-color);
+ } 
+.scrolled {
+    position: fixed;
+}
+
+.scrolled nav{
+ background-color: #fff;
+ margin: 0;
+ border-radius: 0px 0px 7px 7px;
+ height: 9vh;
+
+ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.156);
+ padding: 20px 7%;
+}
+
+
+.scrolled a{
+    color: #000;
+    font-size: 16px;
+}
+
+.scrolled a:hover{
+    color: var(--color1);
+}
+
+
+ 
+ .scrolled   .cerrar-nav{
+    color: #000;
+ 
+}
+
+
+.scrolled .logo-nav a{
+    
+    color: var(--color1);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+ 
+
+
+ .scrolled .nav_items .active {
+    transition: all 0.2s linear;
+    border-radius: 5px  ;
+    color: var(--color1);
+  
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+
+   .redes-sociales{
+      display: none;
+   }
+    .cerrar-nav{
+        color: var(--text-color);
+        display: flex;
+        margin-left: 90%;
+      
+        font-size: 20px;
+        font-weight: 600;
+    }
+  
+        
+    .nav_toggle span{
+        width: 25px;
+        height: 3px;
+        background: var(--color3);
+        margin-bottom: 5px;
+        border-radius: 20px;
+        transform-origin: 3px 0px;
+        transition: all 0.2s linear;
+       display: flex;
+    }
+
+  .nav_items{
+   z-index: 800;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-color: var(--blanco);
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+   height: -webkit-fill-available;
+   transform: translateX(-100%);
+   transition: 0.3s ease all;
+   height: 100vh;
+   gap: 2rem;
+   padding: 20px;
+   justify-content: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   background-image: url(../../img/fondonav.png);
+  
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
+.enlaces a{
+   
+    text-decoration: none;
+    font-size: 14px;
+    padding: 20px;
+    color: var(--text-color);
+}
+.navbar a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+}
+
+    nav {
+        margin: 0;
+        padding: 0px 5%;
+      
+    }
+
+    .logo-nav img{
+        display: flex;
+    }
+    .logo img{
+        width: 200px;
+         
+       }
+}
+
+
+#contact-btn{
+    background: linear-gradient(90deg, var( --color1) 40%, var( --color2) 100%);
+     padding: 10px 30px;
+     border-radius: 30rem;
+    color: var(--blanco);
+    
+}

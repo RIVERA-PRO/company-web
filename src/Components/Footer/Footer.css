@@ -1,0 +1,21 @@
+.footerContain{
+    padding: 100px 7%;
+    height: 80vh;
+    transition: all 0.2s linear;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:space-between ;
+   
+    align-items: center;
+    background-color: var(--color4);
+}
+
+.textFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.textFooter img{
+    width: 250px;
+}
