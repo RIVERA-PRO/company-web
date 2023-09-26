@@ -44,8 +44,9 @@ export default function Footer() {
                 <Anchor to="https://wa.me/qr/AHQDYWM7EKATH1" target='blank'>
                     <FontAwesomeIcon icon={faPhone} /> 3875683101
                 </Anchor>
-                <Anchor to="mailto:indiojuan2012.jr@gmail.com">
-                    <FontAwesomeIcon icon={faEnvelope} /> indiojuan2012.jr@gmail.com
+                <Anchor to="mailto:webdesingplus@gmail.com">
+                    <FontAwesomeIcon icon={faEnvelope} /> webdesingplus@gmail.com
+
                 </Anchor>
                 <Anchor to="https://maps.google.com/?q=Salta, Argentina" target='blank'>
                     <FontAwesomeIcon icon={faMapMarker} /> Salta, Argentina
