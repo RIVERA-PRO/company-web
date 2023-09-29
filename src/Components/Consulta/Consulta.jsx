@@ -68,17 +68,17 @@ export default function Consulta() {
     return (
         <div className='consultaContain'>
 
-            <img src={img} alt="img" className='consultaImg' />
+            <img src={img} alt="diseño web plus" className='consultaImg' />
             <form action="" className="Formulario" onSubmit={handleFormSubmit} ref={dataForm}>
                 <label htmlFor="">Comienza Tu Proyecto</label>
 
                 <div className="deFlexInputs">
-                    <input className="inputt" type="text" placeholder="Nombre" name="name" id="name" style={{ color: 'white' }} />
+                    <input className="inputt" type="text" placeholder="Nombre" name="name" id="name" style={{ color: 'white' }} required={true} />
 
-                    <input className="inputt" type="email" placeholder="Email" name="email" id="email" style={{ color: 'white' }} />
+                    <input className="inputt" type="email" placeholder="Email" name="email" id="email" style={{ color: 'white' }} required={true} />
                 </div>
 
-                <textarea placeholder="Consulta" name="question" id="question" style={{ color: 'white' }}></textarea>
+                <textarea placeholder="Consulta" name="question" id="question" style={{ color: 'white' }} required={true}></textarea>
                 {successMessage && <p className="success-message">{successMessage}</p>}
                 {errorMessage && <p className="error-message">{errorMessage}</p>}
                 <div className="enviar">

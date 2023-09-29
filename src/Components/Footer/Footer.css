@@ -6,7 +6,7 @@
     overflow: hidden;
     display: grid;
     grid-auto-rows: max-content;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     place-content: center;
     transition: all 0.2s linear;   

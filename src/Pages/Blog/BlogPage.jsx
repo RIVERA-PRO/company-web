@@ -42,7 +42,7 @@ export default function BlogPage() {
                             className="blog-card-link"
                         >
                             <div className="blog-card">
-                                <img src={blogItem.img} alt="juan-rivera-developer-BLOG" />
+                                <img src={blogItem.img} alt="diseño web plus" />
                                 <div className='blog-card-text'>
                                     <h3>{blogItem.titulo}</h3>
                                     <p>{blogItem.descripcion.slice(0, 200)}..</p>

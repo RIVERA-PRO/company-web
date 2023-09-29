@@ -15,6 +15,7 @@
   place-content: center;
   height: 140vh;
   width: 100%;
+  padding-top: 5rem;
 
 }
 .titleH1-2{
@@ -30,7 +31,6 @@
 .card-project-y-none{
   display: none!important;
   background-color: var(--blanco);
-
   overflow: hidden;
 }
 .Proyectos h3{
@@ -204,6 +204,9 @@
 
   font-size: 30px;
   color: var(--color2);
+}
+.next-prev-btn{
+  display: none;
 }
   }
 

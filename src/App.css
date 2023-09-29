@@ -58,15 +58,15 @@ html {
 
 
 
-.heroText,.textDev{
+.heroText,.textDev,.scrolledMovil,.scrolledWeb, a,p,h1 ,.textDev,.servicios,.textDevScroll,.AboutTextScroll,.card-project-y ,.BlogComponentScroll , a{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;
 }
- nav { opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
+ nav ,.imgDevWeb { opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
 }
 
-.imgHero{ opacity: 0; animation: slideUp 1s ease-in-out forwards; -webkit-animation: slideUp 1s ease-in-out forwards;
+.imgHero { opacity: 0; animation: slideUp 1s ease-in-out forwards; -webkit-animation: slideUp 1s ease-in-out forwards;
 }
 
 

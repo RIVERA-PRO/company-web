@@ -1,17 +1,34 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import './BlogComponent.css'
 import { Link } from 'react-router-dom';
 import blog from '../../Components/dataBlog';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 export default function BlogComponent() {
+    const [scrolled, setScrolled] = useState(false);
+
+    const handleScroll = () => {
+        const offset = window.scrollY;
+        if (offset > 3500) {
+            setScrolled(true);
+        } else {
+            setScrolled(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <section className='BlogHome'>
             <div className='titleSections'>
                 <FontAwesomeIcon icon={faCode} className='iconTitle' />
                 <h1>Nuestro Blog</h1>
             </div>
-            <div className='BlogComponent'>
+            <div className={scrolled ? "BlogComponent BlogComponentScroll" : "BlogComponent"}>
 
                 {blog.slice(0, 3).map(blogItem => (
                     <Link

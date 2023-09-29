@@ -35,6 +35,10 @@
 .card-servicios:hover p{
     color: var(--blanco);
 }
+
+.serviciosno{
+    display: none;
+}
 .servicios{
     display: flex;
     justify-content: space-between;

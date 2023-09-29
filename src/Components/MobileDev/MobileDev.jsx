@@ -10,7 +10,7 @@ export default function MobileDev() {
 
     const handleScroll = () => {
         const offset = window.scrollY;
-        if (offset > 1200) {
+        if (offset > 2000) {
             setScrolled(true);
         } else {
             setScrolled(false);
@@ -27,10 +27,10 @@ export default function MobileDev() {
     return (
         <section className='serviciosMovil'>
             <div className='containDev' id='espacio'>
-                <div className={scrolled ? "imgDev scrolledMovil" : "imgDev"}>
-                    <img src={img} alt="juan-river-developer-mobile" />
+                <div className={scrolled ? "imgDev imgDevWeb" : "imgDev"}>
+                    <img src={img} alt="diseño web plus" />
                 </div>
-                <div className={scrolled ? "textDev scrolledMovil" : "textDev"}>
+                <div className={scrolled ? "textDev textDevScroll" : "textDev"}>
                     <div className='titleSections'>
                         <FontAwesomeIcon icon={faCode} className='iconTitle' />
                         <h1>Aplicaciones Móviles </h1>

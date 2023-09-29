@@ -16,10 +16,10 @@ export default function HeroContain() {
                     Creatividad
                     Innovación
                     Soluciones</span>
-                <Anchor to={`/`} className='btn'>Contáctanos</Anchor>
+                <Anchor to={`https://wa.me/qr/AHQDYWM7EKATH1`} className='btn' target='blank'>Contactar</Anchor>
             </div>
             <div className='imgHero'>
-                <img src={img} alt="" />
+                <img src={img} alt="diseño web plus" />
             </div>
 
 

@@ -6,7 +6,7 @@ export default function CardPersonal() {
     return (
         <div className='CardPersonal'>
 
-            <img src={img} alt="juan-rivera-developer" />
+            <img src={img} alt="juan-rivera-developer diseño web plus" />
             <h3>Diseño Web Plus</h3>
             <p>Software Developer</p>
 

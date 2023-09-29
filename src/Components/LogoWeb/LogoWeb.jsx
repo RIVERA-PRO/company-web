@@ -8,6 +8,10 @@ export default function LogoWeb() {
     return (
         <div className='logoWeb'>
             <Anchor ><img src={logo} alt="logo-diseño-web-plus" /> </Anchor>
+
+
+            <h2 >DISEÑO WEB PLUS</h2>
+
         </div>
     )
 }

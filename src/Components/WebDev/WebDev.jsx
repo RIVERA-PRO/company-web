@@ -9,7 +9,7 @@ export default function WebDev() {
 
     const handleScroll = () => {
         const offset = window.scrollY;
-        if (offset > 900) {
+        if (offset > 1400) {
             setScrolled(true);
         } else {
             setScrolled(false);
@@ -26,7 +26,7 @@ export default function WebDev() {
     return (
         <section className='serviciosWeb'>
             <div className='containDev' id='containDevWeb'>
-                <div className={scrolled ? "textDev scrolledWeb" : "textDev"}>
+                <div className={scrolled ? "textDev textDevScroll" : "textDev"}>
 
                     <div className='titleSections'>
                         <FontAwesomeIcon icon={faCode} className='iconTitle' />
@@ -43,11 +43,11 @@ export default function WebDev() {
 
 
                 </div>
-                <div className={scrolled ? "imgDev scrolledWeb" : "imgDev"}>
-                    <img src={img} alt="juan-river-developer-web" />
+                <div className={scrolled ? "imgDev imgDevWeb" : "imgDev"}>
+                    <img src={img} alt="diseño web plus" />
                 </div>
             </div>
-            <div className='servicios'>
+            <div className={scrolled ? "serviciosno servicios" : "serviciosno"}>
                 <div className='card-servicios'>
                     <FontAwesomeIcon icon={faGlobe} size='1x' color='#5252ea' />
                     <h3>Web Responsive</h3>

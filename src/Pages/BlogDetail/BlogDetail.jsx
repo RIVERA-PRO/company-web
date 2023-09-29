@@ -33,7 +33,7 @@ export default function BlogDetail() {
                             {selectedBlog.img !== "" && (
                                 <img
                                     src={selectedBlog.img}
-                                    alt={`juan-rivera-developer ${selectedBlog.titulo}`}
+                                    alt={`diseño web plus ${selectedBlog.titulo}`}
                                     className='img-blog-1'
                                 />
                             )}
@@ -45,7 +45,7 @@ export default function BlogDetail() {
                             {selectedBlog?.imgs?.img1 && (
                                 <img
                                     src={selectedBlog.imgs.img1}
-                                    alt="juan-rivera-developer"
+                                    alt="diseño web plus"
                                     className='img-blog'
                                 />
                             )}
@@ -76,7 +76,7 @@ export default function BlogDetail() {
                             {selectedBlog?.imgs?.img2 && (
                                 <img
                                     src={selectedBlog.imgs.img2}
-                                    alt="juan-rivera-developer"
+                                    alt="diseño web plus"
                                     className='img-blog'
                                 />
                             )}
@@ -111,7 +111,7 @@ export default function BlogDetail() {
                             {selectedBlog?.imgs?.img3 && (
                                 <img
                                     src={selectedBlog.imgs.img3}
-                                    alt="juan-rivera-developer"
+                                    alt="diseño web plus"
                                     className='img-blog'
                                 />
                             )}
@@ -149,7 +149,7 @@ export default function BlogDetail() {
                             {selectedBlog?.imgs?.img4 && (
                                 <img
                                     src={selectedBlog.imgs.img4}
-                                    alt="juan-rivera-developer"
+                                    alt="diseño web plus"
                                     className='img-blog'
                                 />
                             )}

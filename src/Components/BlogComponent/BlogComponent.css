@@ -1,8 +1,22 @@
-.BlogComponent{
+.BlogComponent{  
+    transition: all 0.2s linear;   
+   
+    transition: all 0.2s linear;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: none;
+}
+.BlogComponentScroll{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 .BlogHome{
     padding: 100px 10%;
@@ -20,7 +34,23 @@
 .blog-card-component img{
     width: 100%;
 }
-
+@media (max-width:1224px){
+    .blog-card-component{
+        width:100%;
+      
+    }
+    .BlogHome{
+        padding: 100px 7%;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+     
+    }
+    .BlogComponentScroll{
+       
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    }
+}
 @media (max-width:504px){
     .blog-card-component{
         width: 100%;

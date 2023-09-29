@@ -110,7 +110,7 @@ export default function ProyectosY() {
     // Cambio de color en navbar al hacer scroll
     const handleScroll = () => {
         const offset = window.scrollY;
-        if (offset > 0) {
+        if (offset > 2800) {
             setScrolled(true);
         } else {
             setScrolled(false);
@@ -172,7 +172,7 @@ export default function ProyectosY() {
 
                         <div key={index} className={scrolled ? "card-project-y-none card-project-y" : "card-project-y-none"} >
                             <Anchor to={`${item.link}`} target="_blank" >
-                                <img src={item.img} alt={`juan-rivera-developer ${item.img}`} />
+                                <img src={item.img} alt={`diseño web plus ${item.img}`} />
                             </Anchor>
                             <div className='card-project-y-TextY'>
                                 <h3>{item.title}</h3>
