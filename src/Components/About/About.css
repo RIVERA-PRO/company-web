@@ -47,6 +47,7 @@
     .aboutImg{
         margin-top: -43rem;
         width: 140px!important;
+        display: none;
     }
     .AboutText{
         display: inline-block;
@@ -65,6 +66,7 @@
     }
     .AboutConatin img{
         width: 50px;
+       
     }
     .AboutConatin{
   
